@@ -2,7 +2,7 @@ how_many_p = int(input('Enter how many pockman do you wnat to catch?  '))
 powers = []
 i = 0
 while i < how_many_p:
-    pockman_p = int(input('Enter pockman '))
+    pockman_p = int(input('Enter a pockman '))
     powers.append(pockman_p)
     i = i+1
 min_p = min(powers)
